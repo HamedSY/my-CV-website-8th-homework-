@@ -1,0 +1,14 @@
+img.Hamed {
+	margin: 40px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 15px 0 black;
+	width: 300px;
+	float: right;
+}
+
+.intro {
+	margin: 60px 60px 60px 0;
+	font-size: 20px;
+	color: #1c5e13;
+}
+

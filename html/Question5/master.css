@@ -1,0 +1,50 @@
+@font-face {
+	font-family: iransans;
+	src: url(fonts/iransans.ttf);
+}
+
+*{
+	text-decoration: inherit;
+  	background: url("pics/back.jpg") no-repeat center center fixed; 
+	background-size: cover;
+	font-family: iransans;
+}
+
+nav{
+	padding: 20px;
+	
+}
+
+a{
+	color: #877508;
+}
+
+span{
+	margin:0 20px 0 20px;;
+}
+
+a:hover {
+	color:#544904;
+}
+
+hr{
+	width: 80%;
+	color: #bab2b5;
+}
+
+
+.ver_line {
+	border-left: 2px solid #bab2b5;
+	height: 30px;
+}
+
+span.foot{
+	float: right;
+	margin: 20px 30% 0 0 ;
+	text-align: center;
+}
+
+span.contact{
+	float: left;
+	margin: 20px 0 0 30% ;
+}

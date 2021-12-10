@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html dir="rtl">
+	<head>
+		<meta charset="utf-8"/> 
+		<link rel="stylesheet" href="callme.css">
+		<link rel="stylesheet" href="master.css">
+		<script>
+			function conf() {
+				var x = confirm("آیا از ارسال پیام اطمینان دارید؟");
+				if(x == true)
+					alert("پیام شما با موفقیت ارسال شد!");
+				else
+					alert("متاسفانه پیام شما ارسال نشد، مجددا تلاش فرمایید");
+			}
+		</script>
+	</head>
+	
+
+	<body>
+		<nav>
+			<span><a href="introduction.html"> معرفی من </a></span> <span class="ver_line"></span>
+			<span><a href="ability.html"> مهارت‌ و توانمندی‌ها </a></span> <span class="ver_line"></span>
+			<span><a href="prizes.html"> افتخارات و دستاوردها </a></span> <span class="ver_line"></span>
+			<span><a href="callme.html"> تماس با من </a></span>
+		</nav>
+		
+		<hr></hr>
+		
+		<img src="pics/callme.png"> </img>
+		
+		<h2>فرم ارتباط با من</h2>
+
+		<div class="container">
+		  <form>
+		    <label for="name">نام و نام خانوادگی</label>
+		    	<br>
+		    <input type="text" name="name" placeholder="نام شما..">
+			<br>
+		    <label for="email">ایمیل</label>
+		    	<br>
+		    <input type="text" name="email" placeholder="ایمیل شما..">
+			<br>
+		    <label for="subject">موضوع</label>
+		    	<br>
+		    <select name="subject">
+		      <option value="coworking">درخواست همکاری</option>
+		      <option value="recom">انتقاد و پیشنهاد نسبت به سایت</option>
+		      <option value="other">موضوعات دیگر</option>
+		    </select>
+			<br>
+		    <label for="message">متن</label>
+		    	<br>
+		    <textarea name="message" placeholder="پیام شما.." style="height:200px"></textarea>
+			<br>
+		    <input type="submit" value="ارسال" onclick="conf()">
+		  </form>
+		</div>
+		
+		<hr></hr>
+		
+		<footer>
+			<span class="foot"><a href="introduction.html"> معرفی من </a></span> 
+			<span class="contact"><a href="https://github.com/HamedSY"> صفحه گیت‌هاب من </a></span>
+			<br></br>
+			<span class="foot"><a href="ability.html"> مهارت‌ و توانمندی‌ها </a></span>
+			<span class="contact"><a href="https://stackoverflow.com/users/17498675/hamed-saboor"> صفحه استک اورفلو من </a></span> <br></br>
+			<span class="foot"><a href="prizes.html"> افتخارات و دستاوردها </a></span> 
+			<span class="contact"><a href="mailto:hamed007.saboor@gmail.com"> به من ایمیل بزن! </a></span> <br></br>
+			<span class="foot"><a href="callme.html"> تماس با من </a></span>
+			<br></br><br></br>
+		</footer>
+		
+	</body>
+
+
+</html>
